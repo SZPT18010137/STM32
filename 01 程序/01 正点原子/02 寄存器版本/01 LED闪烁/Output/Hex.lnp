@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+"..\output\main.o"
+"..\output\stm32f10x_bsp.o"
+"..\output\stm32f10x_irq.o"
+"..\output\led.o"
+"..\output\systick.o"
+"..\output\startup_stm32f10x_hd.o"
+"..\output\system_clock.o"
+--strict --scatter "..\Output\Hex.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Hex.map" -o ..\Output\Hex.axf

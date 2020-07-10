@@ -1,0 +1,44 @@
+Dependencies for Project 'STM32F103ZE', Target 'STM32F103ZE': (DO NOT MODIFY !)
+F (..\Libraries\User\src\main.c)(0x5F0882EF)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Libraries\User\inc -I ..\Libraries\System\inc -I ..\Libraries\Hardware\inc-I.\RTE\_STM32F103ZE-I"D:\Program Flies\Keil_5_MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\Program Flies\Keil_5_MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\Libraries\User\inc\includes.h)(0x5F08AF85)
+I (..\Libraries\System\inc\bit.h)(0x5EBB9F8E)
+I (..\Libraries\User\inc\stm32f10x_bsp.h)(0x5F088075)
+I (..\Libraries\System\inc\stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\System\inc\core_cm3.h)(0x4D523B58)
+I (D:\Program Flies\Keil_5_MDK\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\Libraries\System\inc\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\System\inc\system_clock.h)(0x5F088207)
+I (..\Libraries\Hardware\inc\led.h)(0x5F087D67)
+I (..\Libraries\Hardware\inc\systick.h)(0x5F08819D)
+F (..\Libraries\User\src\stm32f10x_bsp.c)(0x5F0883A8)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Libraries\User\inc -I ..\Libraries\System\inc -I ..\Libraries\Hardware\inc-I.\RTE\_STM32F103ZE-I"D:\Program Flies\Keil_5_MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\Program Flies\Keil_5_MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\output\stm32f10x_bsp.o --omf_browse ..\output\stm32f10x_bsp.crf --depend ..\output\stm32f10x_bsp.d)
+I (..\Libraries\User\inc\includes.h)(0x5F08AF85)
+I (..\Libraries\System\inc\bit.h)(0x5EBB9F8E)
+I (..\Libraries\User\inc\stm32f10x_bsp.h)(0x5F088075)
+I (..\Libraries\System\inc\stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\System\inc\core_cm3.h)(0x4D523B58)
+I (D:\Program Flies\Keil_5_MDK\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\Libraries\System\inc\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\System\inc\system_clock.h)(0x5F088207)
+I (..\Libraries\Hardware\inc\led.h)(0x5F087D67)
+I (..\Libraries\Hardware\inc\systick.h)(0x5F08819D)
+F (..\Libraries\User\src\stm32f10x_irq.c)(0x5F08837C)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Libraries\User\inc -I ..\Libraries\System\inc -I ..\Libraries\Hardware\inc-I.\RTE\_STM32F103ZE-I"D:\Program Flies\Keil_5_MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\Program Flies\Keil_5_MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\output\stm32f10x_irq.o --omf_browse ..\output\stm32f10x_irq.crf --depend ..\output\stm32f10x_irq.d)
+F (..\Libraries\Hardware\src\LED.c)(0x5F08B0C5)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Libraries\User\inc -I ..\Libraries\System\inc -I ..\Libraries\Hardware\inc-I.\RTE\_STM32F103ZE-I"D:\Program Flies\Keil_5_MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\Program Flies\Keil_5_MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\output\led.o --omf_browse ..\output\led.crf --depend ..\output\led.d)
+I (..\Libraries\Hardware\inc\led.h)(0x5F087D67)
+I (..\Libraries\System\inc\bit.h)(0x5EBB9F8E)
+I (..\Libraries\System\inc\stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\System\inc\core_cm3.h)(0x4D523B58)
+I (D:\Program Flies\Keil_5_MDK\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\Libraries\System\inc\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\Libraries\Hardware\src\Systick.c)(0x5F08B0F1)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Libraries\User\inc -I ..\Libraries\System\inc -I ..\Libraries\Hardware\inc-I.\RTE\_STM32F103ZE-I"D:\Program Flies\Keil_5_MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\Program Flies\Keil_5_MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\output\systick.o --omf_browse ..\output\systick.crf --depend ..\output\systick.d)
+I (..\Libraries\Hardware\inc\systick.h)(0x5F08819D)
+I (..\Libraries\System\inc\stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\System\inc\core_cm3.h)(0x4D523B58)
+I (D:\Program Flies\Keil_5_MDK\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\Libraries\System\inc\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\Libraries\System\src\startup_stm32f10x_hd.s)(0x54B0B2EE)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_STM32F103ZE-I"D:\Program Flies\Keil_5_MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\Program Flies\Keil_5_MDK\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 528" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o ..\output\startup_stm32f10x_hd.o --depend ..\output\startup_stm32f10x_hd.d)
+F (..\Libraries\System\src\system_clock.c)(0x5F08B0DC)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Libraries\User\inc -I ..\Libraries\System\inc -I ..\Libraries\Hardware\inc-I.\RTE\_STM32F103ZE-I"D:\Program Flies\Keil_5_MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"D:\Program Flies\Keil_5_MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\output\system_clock.o --omf_browse ..\output\system_clock.crf --depend ..\output\system_clock.d)
+I (..\Libraries\System\inc\stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\System\inc\core_cm3.h)(0x4D523B58)
+I (D:\Program Flies\Keil_5_MDK\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\Libraries\System\inc\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\System\inc\system_clock.h)(0x5F088207)
